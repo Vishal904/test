@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Flight Reservation  Application</title>
+		<style>
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			}
+			
+			.bg {
+			  background-image: url("images/welcome.jpg");
+			  height: 100%; 
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+			marquee {
+				font-size: 20px;
+      			font-weight: 800;
+		        width: 100%;
+		        padding: 10px 0;
+		        scrollamount="20";
+		        background-color:lightblue;
+		   	}
+		   	div {
+		   		background-color:lightblue;
+		   		margin-top : -10px;
+		   	}
+			</style>
+	</head>
+	<body class="bg">
+		<marquee onmouseover="this.stop();" onmouseout="this.start();">
+			<font style = "margin-right:10%">Welcome to Post Management System !</font>
+		</marquee>
+		<div align = "center" >
+			Click here to register- 
+			<a href="showReg" style = "margin-right:5%;"><font color = "red" >Register</font></a>
+			Click here to login-
+			<a href="showlogin"><font color = "red">Login</font></a>
+		</div>
+	</body>
+</html>
